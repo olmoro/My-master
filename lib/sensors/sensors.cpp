@@ -18,13 +18,13 @@
 #include "reRangeMonitor.h"
 #include "reLoadCtrl.h"
 #if CONFIG_TELEGRAM_ENABLE
-#include "reTgSend.h"
+  #include "reTgSend.h"
 #endif // CONFIG_TELEGRAM_ENABLE
 #if CONFIG_DATASEND_ENABLE
-#include "reDataSend.h"
+  #include "reDataSend.h"
 #endif // CONFIG_DATASEND_ENABLE
 #if defined(CONFIG_ELTARIFFS_ENABLED) && CONFIG_ELTARIFFS_ENABLED
-#include "reElTariffs.h"
+  #include "reElTariffs.h"
 #endif // CONFIG_ELTARIFFS_ENABLED
 
 static const char* logTAG = "SENS";

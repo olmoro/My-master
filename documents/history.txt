@@ -16,3 +16,11 @@ RAM:   [==        ]  18.6% (used 61112 bytes from 327680 bytes)
 Flash: [======    ]  63.7% (used 1002360 bytes from 1572864 bytes)
 
 Переименовано security на target
+
+Освобождены: I2C_PORT1_SDA, I2C_PORT1_SCL (незадействованы)
+RAM:   [==        ]  18.6% (used 60824 bytes from 327680 bytes)
+Flash: [======    ]  63.7% (used 1002476 bytes from 1572864 bytes)
+
+Освобождены: I2C_PORT0_SDA, I2C_PORT0_SCL
+RAM:   [==        ]  18.5% (used 60528 bytes from 327680 bytes)
+Flash: [======    ]  63.2% (used 994112 bytes from 1572864 bytes)

@@ -53,18 +53,18 @@
 #define CONFIG_GPIO_ALARM_LEVEL     0x01
 // EN: I2C bus #0: pins, pullup, frequency
 // RU: Шина I2C #0: выводы, подтяжка, частота, размер статического буфера в транзациях
-#define CONFIG_I2C_PORT0_SDA        21
-#define CONFIG_I2C_PORT0_SCL        22
-#define CONFIG_I2C_PORT0_PULLUP     false 
-#define CONFIG_I2C_PORT0_FREQ_HZ    100000
-#define CONFIG_I2C_PORT0_STATIC     2
+//#define CONFIG_I2C_PORT0_SDA        21
+//#define CONFIG_I2C_PORT0_SCL        22
+//#define CONFIG_I2C_PORT0_PULLUP     false 
+//#define CONFIG_I2C_PORT0_FREQ_HZ    100000
+//#define CONFIG_I2C_PORT0_STATIC     2
 // EN: I2C bus #1: pins, pullup, frequency
 // RU: Шина I2C #1: выводы, подтяжка, частота, размер статического буфера в транзациях
-#define CONFIG_I2C_PORT1_SDA        17
-#define CONFIG_I2C_PORT1_SCL        16
-#define CONFIG_I2C_PORT1_PULLUP     false
-#define CONFIG_I2C_PORT1_FREQ_HZ    100000
-#define CONFIG_I2C_PORT1_STATIC     2
+//#define CONFIG_I2C_PORT1_SDA        17
+//#define CONFIG_I2C_PORT1_SCL        16
+//#define CONFIG_I2C_PORT1_PULLUP     false
+//#define CONFIG_I2C_PORT1_FREQ_HZ    100000
+//#define CONFIG_I2C_PORT1_STATIC     2
 // EN: Blocking access to I2C buses. Makes sense if I2C devices are accessed from different threads. 
 // The I2C APIs are not thread-safe, if you want to use one I2C port in different tasks, you need to take care of the multi-thread issue.
 // RU: Блокировка доступа к шинам I2C. Имеет смысл, если доступ к устройствам I2C осущствляется из разных потоков
